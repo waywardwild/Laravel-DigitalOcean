@@ -9,12 +9,18 @@
             "email": "graham@alt-three.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/waywardwild/DigitalOceanV2"
+        }
+    ],
     "require": {
         "php": ">=5.5.9",
         "illuminate/contracts": "5.1.*|5.2.*|5.3.*",
         "illuminate/support": "5.1.*|5.2.*|5.3.*",
         "graham-campbell/manager": "^2.3",
-        "toin0u/digitalocean-v2": "^2.0"
+        "toin0u/digitalocean-v2": "dev-digitalocean-updates"
     },
     "require-dev": {
         "graham-campbell/testbench": "^3.1",
